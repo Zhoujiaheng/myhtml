@@ -1,0 +1,36 @@
+.footer {
+    height: 230px;
+    background: url(../images/foot1bck2.jpg) repeat-x;
+    position: relative;
+}
+.footer-box {
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.footer-box dl {
+    width: 110px;
+    float: left;
+    text-align: center;
+}
+.footer-box dl dt {
+    font-size: 14px;
+    color: #333;
+    line-height: 30px;
+    background: url(../images/dtb.png) no-repeat center bottom;
+}
+.footer-box dl dd a{
+    line-height: 24px;
+    color: #797979;
+}
+.footer-box dl dd a:hover {
+    color: #7e2f2f;
+}
+.mao {
+    position: absolute;
+    top: -24px;
+    left: 650px;
+    width: 48px;
+    height: 48px;
+}
