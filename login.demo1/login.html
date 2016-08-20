@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+	<script src="jquery-1.12.0.min.js"></script>
+	<script src="login.js"></script>
+</head>
+<body id="1">
+	<div class="box">
+		<form action="success.html" method="post">
+		<div class="name">
+			<span class="glyphicon glyphicon-user"></span>
+			<input class="opacity" type="text" id="uName" autofocus="autofocus" placeholder="用户名">
+		</div>
+		<div class="pss">
+			<span class="glyphicon glyphicon-lock"></span>
+			<input class="opacity" type="text" id="uPass" placeholder="用户密码">
+		</div>
+		<div>
+			<button value="submit" class="opacity_submit">
+				<a><b>登 录</b></a>
+			</button>
+		</div>
+		<div class="check">
+			<div class="check1">
+				<input type="checkbox"><p>记住密码</p>
+			</div>
+			<div class="check2">
+				<a href="#">忘记密码</a>
+			</div>
+		</div>
+	</form>
+	</div>
+	<!-- 浏览器可用宽高1366 653 -->
+	<!-- <script>
+var w=window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
+
+var h=window.innerHeight
+|| document.documentElement.clientHeight
+|| document.body.clientHeight;
+
+x=document.getElementById("1");
+x.innerHTML="浏览器的内部窗口宽度：" + w + "，高度：" + h + "。"
+</script> -->
+</body>
+</html>
