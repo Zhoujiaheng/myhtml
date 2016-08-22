@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	line-height: 1;
+	overflow: hidden;
+}
+#logo{
+	position: fixed;
+    top: 45px;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 10;
+}
+#scroll {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -28px;
+    z-index: 10;
+}
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+#header {
+    z-index: 300;
+    position: fixed;
+    width: 55px;
+    height: 232px;
+    top: 50%;
+    right: 0;
+    margin-top: -116px;
+    background: url(../images/navi_bg.png) repeat 0 0;
+}
+ul{
+	list-style: none;
+}
+#header ul {
+    padding-top: 50px;
+}
+#header ul li button.on {
+    width: 55px;
+    height: 32px;
+    background: url(../images/navi_on.png) no-repeat 50% 50%;
+}
+#header ul li button {
+    width: 55px;
+    height: 32px;
+    background: url(../images/navi_off.png) no-repeat 50% 50%;
+}
+#container,#content,#wrap{
+	height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+.content-section {
+    position: relative;
+}
+.section01 .rolling-warp {
+    position: relative;
+    height: 100%;
+}
+.section01-title01 {
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+}
+.section01-text01 {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    margin-top: 20px;
+    left: 0;
+    z-index: 1;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.nanumgothic {
+    font-family: 'Nanum Gothic';
+    line-height: 1.5;
+}
+img.full-img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.section02 .rolling-warp {
+    position: relative;
+    height: 100%;
+}
+.section02_txtbox {
+    position: absolute;
+    top: 50%;
+    margin-top: -208px;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+}
+.section02_txtbox {
+    position: absolute;
+    top: 50%;
+    margin-top: -208px;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+}
+.section02-title01 {
+    font-size: 72px;
+    color: #fff;
+}
+.section02-text01 {
+    font-size: 20px;
+    margin-top: 50px;
+    color: #fff;
+}
+.section06_txtbox {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    margin-top: -186px;
+    text-align: center;
+    width: 100%;
+}
